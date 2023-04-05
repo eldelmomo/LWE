@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     /**
      * @param args
      */
@@ -17,6 +17,8 @@ public class main {
         int m = 5*n;
 
         // variance Gaussian distribution
+        // mean = |v/2|
+        // ej.: v=3 : {1,2,3}
         int v = 3;
 
         // message 

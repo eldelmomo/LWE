@@ -1,0 +1,9 @@
+## MAC OS ##
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/
+
+### Java ###
+# Compiled class file
+*.class

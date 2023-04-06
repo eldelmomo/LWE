@@ -1,3 +1,4 @@
+Only for "Experiment iterations" section
 The software use Java Agent to measure execution times. In case the experimentation section will be executed, run the program in the following way:
 
 Compile the application:

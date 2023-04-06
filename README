@@ -1,0 +1,10 @@
+The software use Java Agent to measure execution times. In case the experimentation section will be executed, run the program in the following way:
+
+Compile the application:
+javac Main.java
+
+Create the agent jar:
+jar -cvfm ObjectSize.jar META-INF/MANIFEST.MF ObjectSize.class
+
+Run the application with the agent:
+java -javaagent:ObjectSize.jar Main

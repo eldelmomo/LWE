@@ -1,9 +1,13 @@
+package utils;
+
+import java.math.BigInteger;
+
 public class CipherText {
 
     private Vector a_component;
-    private int b_component;
+    private BigInteger b_component;
 
-    public CipherText (Vector a_component, int b_component){
+    public CipherText (Vector a_component, BigInteger b_component){
         this.a_component = a_component;
         this.b_component = b_component;
     }
@@ -12,7 +16,7 @@ public class CipherText {
         return a_component;
     }
 
-    public int getBComponent(){
+    public BigInteger getBComponent(){
         return b_component;
     }
 

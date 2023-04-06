@@ -1,3 +1,4 @@
+package utils;
 
 public class KeyPair {
 
@@ -25,11 +26,11 @@ public class KeyPair {
 
     @Override
     public String toString() {
-        String r = "Public Key, A component:\n";
+        String r = "\nPublic Key, A component:\n";
         for (Vector vector : pubKey_a) {
             r += "\t"+vector.toString() + "\n";
         }
-        r += "Public Key, B component:\n\t"+pubKey_b.toString()+"\nPrivate Key:\n\t"+privKey.toString();
+        r += "\nPublic Key, B component:\n\t"+pubKey_b.toString()+"\n\nPrivate Key:\n\t"+privKey.toString();
        return r;
     }
 }
